@@ -1,0 +1,8 @@
+{
+  "short_name": "About Me",
+  "name": "About Me",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#000000"
+}
