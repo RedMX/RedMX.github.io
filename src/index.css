@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 10000px;
+    color: white;
+    font-family:'Poppins';
+    background-attachment: fixed
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+.abt {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10vw;
+    white-space: nowrap;
+   
+}
+.text {
+    position: fixed;
+    font-size: 3vw;
+}
+.title {
+    white-space: nowrap;
+}
+#circle {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: grey;
+    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    position: fixed;
+}
+#end {
+    height: 100%;
+    width: 100%;
+    background: grey;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+}
+.center {
+    position: fixed;
+    left: 50%;
+
+    transform: translate(-50%);
+    white-space: nowrap;
+
+}
+#git {
+    border-radius: 10px;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border: none;
+}
